@@ -1,6 +1,6 @@
 from uzwords import words
 def findMatches(word,words):
-	words.remove(word)
+	
 	word = sorted(word)
 	for lisso in words[1:]:
 		for harf in lisso:			
