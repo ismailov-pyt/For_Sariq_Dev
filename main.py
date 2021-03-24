@@ -10,6 +10,6 @@ def findMatches(word,words):
 			if harf not in (word):
 				words.remove(lisso)
 				break
-	print(words[1:])	     
-findMatches('аберрацион',words)
+	return words[1:]	     
+
 
